@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - J IT Solutions & Services</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #0047AB;
+            color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #FFD700;
+            color: #0047AB;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Services Section */
+        .services {
+            padding: 60px 20px;
+            text-align: center;
+            background: #fff;
+        }
+
+        .services h2 {
+            font-size: 38px;
+            color: #0047AB;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .services p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .services .service-card {
+            display: inline-block;
+            margin: 20px;
+            width: 320px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .services .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .services .service-card img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+        }
+
+        .services .service-card h3 {
+            font-size: 22px;
+            color: #0047AB;
+            margin: 15px 0 10px;
+            font-weight: bold;
+        }
+
+        .services .service-card p {
+            font-size: 16px;
+            color: #555;
+            padding: 0 20px 20px;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        /* Responsive Design for Phones */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                padding: 15px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                padding: 0;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .services .service-card {
+                width: 90%;
+                margin: 10px auto;
+            }
+
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>J IT Solutions & Services</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+        <p>We provide top-notch IT solutions tailored to meet the specific needs of our clients. Explore our range of services below.</p>
+
+        <div class="service-card">
+            <img src="download.png" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>Custom website design and development to enhance your online presence and drive engagement.</p>
+        </div>
+        <div class="service-card">
+            <img src="cloud.png" alt="Cloud Solutions">
+            <h3>Cloud Solutions</h3>
+            <p>Reliable cloud computing services to streamline your business operations and ensure data security.</p>
+        </div>
+        <div class="service-card">
+            <img src="cs.jpg" alt="Cybersecurity">
+            <h3>Cybersecurity</h3>
+            <p>Comprehensive security solutions to protect your digital assets from potential threats.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 J IT Solutions & Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
